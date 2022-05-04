@@ -1,0 +1,112 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+}
+
+.Superior{
+    display: flex;
+    margin-top: 2%;
+}
+
+.FeaturesButton,
+.CompanyButton,
+.CareersButton,
+.AboutButton,
+.LoginButton,
+.RegisterButton{
+    cursor: pointer;
+    user-select: none;
+    color: hsl(0, 0%, 41%);
+}
+
+.Logo,
+.FeaturesButton,
+.CompanyButton,
+.CareersButton,
+.AboutButton,
+.LoginButton{
+    margin-top: 0.5%;
+}
+
+.Logo{
+    margin-left: 3%;
+}
+
+.FeaturesButton{
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+.CompanyButton{
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+.IconArrow{
+    margin-left: 8%;
+}
+
+.CareersButton,
+.AboutButton{
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+.LoginButton{
+    display: flex;
+    align-items: center;
+    margin-left: 37rem;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+.RegisterButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 30px;
+    border-width: 2.3px;
+    border-style:solid;
+    border-radius: 12px;
+    margin-left: 4%;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+.FeaturesButton:hover,
+.CompanyButton:hover,
+.CareersButton:hover,
+.AboutButton:hover,
+.LoginButton:hover,
+.RegisterButton:hover{
+    color: hsl(0, 0%, 8%);
+}
+
+.Submenus{
+    margin-left: 10.7%;
+    margin-top: 0.2%;
+    display: flex;
+    width: 400px;
+    height: 150px;
+}
+
+.SubmenuFeatures{
+    position: absolute;
+}
+
+.SubmenuCompany{
+    transition-property: display;
+    transition-duration: 500ms;
+    position: absolute;
+    margin-left: 13.4%;
+}

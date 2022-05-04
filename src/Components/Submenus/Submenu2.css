@@ -1,0 +1,29 @@
+.Submenu2{
+    cursor: default;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    border-radius: 10px;
+    width:120px;
+    height: 130px;
+    background-color: white;
+    box-shadow: 1px 10px 30px 10px rgba(143, 136, 136, 0.205);
+}
+
+.History, .OurTeam, .Blog{
+    color: hsl(0, 0%, 41%);
+    height: 30px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.Options2{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80px;
+}
+
